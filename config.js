@@ -12,7 +12,7 @@ DATABASE_URL = process.env.DATABASE_URL === undefined ? './Xproject.db' : proces
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
 
 module.exports = {
-    VERSION: '4.5 ADMIN',
+    VERSION: '4.5 test',
     CCRUN: "zeks",
     GG:"Error 101",
     CHANNEL: 'https://t.me/danumabots',
@@ -20,12 +20,12 @@ module.exports = {
     DESC_EMOJI: process.env.DEMOJI === undefined ?'🪅' : process.env.DEMOJI,
     SONG_UP_TEXT: process.env.SONGUPMSG === undefined ?'🪅' : process.env.SONGUPMSG,
     SONG_DOWN_TEXT: process.env.SONGUPMSG === undefined ?'🪅' : process.env.SONDOWNMSG,
-    MENUTEXT: process.env.MENU === undefined ?'Admin' : process.env.MENU,
+    MENUTEXT: process.env.MENU === undefined ?'test' : process.env.MENU,
     CMENUTEXT: process.env.CUSTOMLIST === undefined ?'' : process.env.CUSTOMLIST,
     MENU_IMAGE: process.env.MENUIMG === undefined ?'' : process.env.MENUIMG,
-    CAPTION_KEY: process.env.CP === undefined ?'    ⚜ X-Troid Pro ⚜' : process.env.CP,
-    ALIVETEXT: process.env.ALIVEMSG === undefined ?'😈 Admin 😈' : process.env.ALIVEMSG,
-    ALIVEIMG: process.env.ALIVEIMG === undefined ? 'https://telegra.ph/file/a143b34753c8434058e87.jpg' : process.env.ALIVEIMG,
+    CAPTION_KEY: process.env.CP === undefined ?'    LIZA testing' : process.env.CP,
+    ALIVETEXT: process.env.ALIVEMSG === undefined ?'test' : process.env.ALIVEMSG,
+    ALIVEIMG: process.env.ALIVEIMG === undefined ? 'https://github.com/udnisap208/flopzbot/blob/main/123.jpg?raw=true' : process.env.ALIVEIMG,
     GIF_WEL: process.env.GIF_WEL === undefined ?'https://netfiletolink.herokuapp.com/49353' : process.env.GIF_WEL,
     GIF_BYE: process.env.GIF_BYE === undefined ?'https://webfilesdanuma.herokuapp.com/stream/14' : process.env.GIF_BYE,
 
